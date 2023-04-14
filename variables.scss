@@ -1,5 +1,9 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
+$bg-color-1: #5e0f02;
+$bg-color-2: #6e1f12;
+$bg-color-3: #7e2f22;
+$grid-padding: 10px;
+$grid-gap: 10px;
+$font-size: 32px;
+$font-family: 'Roboto';
+$grid-item-bg: rgba(255, 255, 255, 0.8);
+$grid-item-border: 1px solid rgba(0, 0, 0, 0.8);
