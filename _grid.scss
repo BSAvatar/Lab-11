@@ -1,6 +1,25 @@
-.square {
-    grid-row-start: 1;
-    grid-row-end: span 2;
-    grid-column-start: 1;
-    grid-column-end: span 2;
+.grid {
+  display: grid;
+  padding: $grid-padding;
+  grid-gap: $grid-gap;
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: auto;
+    background-color: $bg-color-1;
   }
+
+  @media screen and (min-width: 801px) {
+    grid-template-columns: auto auto;
+    background-color: $bg-color-2;
+  }
+
+  @media screen and (min-width: 1001px) {
+    grid-template-columns: auto auto auto;
+    background-color: $bg-color-3;
+  }
+}
+
+.grid-item {
+  background-color: $grid-item-bg;
+  border: $grid-item-border;
+}
