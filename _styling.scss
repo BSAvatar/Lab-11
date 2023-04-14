@@ -1,11 +1,4 @@
-.square {
-    font-size: 24px;
-    background-color: #ccc;
-    border: 1px solid #000;
-  }
-  
-  .rectangle {
-    font-size: 16px;
-    background-color: #eee;
-    border: 1px dashed #333;
-  }
+p {
+  font-family: $font-family;
+  font-size: $font-size;
+}
